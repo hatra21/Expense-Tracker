@@ -22,7 +22,7 @@ function addTransaction(e) {
    e.preventDefault();
    
    if (text.value.trim() === '' || amount.value.trim() === '') {
-       alert('Please fill out the form.');
+       alert('Form is empty.');
    } else {
        const transaction = {
            id: generateID(),
