@@ -22,7 +22,7 @@ function addTransaction(e) {
    e.preventDefault();
    
    if (text.value.trim() === '' || amount.value.trim() === '') {
-       alert('pp');
+       alert('Please fill out the form.');
    } else {
        const transaction = {
            id: generateID(),
